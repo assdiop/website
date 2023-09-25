@@ -15,7 +15,49 @@
 }
 .detail_left_comment_item img{
     width: 7%;
-    height: 30px;
+    height: 40px;
+}
+.detail_left_comment_item{
+    display: flex;
+}
+.detail_left_comment_item span, p{
+    margin-left: 10px;
+    font-size: 17px;
+}
+.detail_left_comment_item p{
+    margin-top: 1px;
+}
+.comment_item1{
+    color: #06A3DA;
+    font-size: 14px;
+}
+.comment_date{
+    font-style: italic;
+}
+.comment_item button{
+    background-color: #EEF9FF;
+    color: black;
+    border: none;
+    margin-bottom: 30px;
+    padding: 5px;
+    width: 7%;
+    border-radius: 5px;
+}
+#detail_left_comment_item{
+    margin-left: 40px;
+}
+.detail_left_form_item{
+    align-items: center;
+    /* text-align: center; */
+}
+.detail_left_formitem1 input{
+    width: 21.2%;
+}
+.detail_left_form_item2 input{
+    width: 43.8%;
+}
+.detail_left_form{
+    
 }
 /* fin css partie gauche */
 .detail_right input{
