@@ -402,8 +402,8 @@ footer div.footer-item:nth-child(3) i, footer div.footer-item:nth-child(4) i{
 
 /* section 3  */
 .section-3{
-    height: 400px;
-    background-color: bisque;
+    height: auto;
+    /* background-color: bisque; */
 }
 .section-3 .items{
     width: 80%;
@@ -415,7 +415,57 @@ footer div.footer-item:nth-child(3) i, footer div.footer-item:nth-child(4) i{
 }
 .section-3 .items .item{
     /* width: ; */
-    width: 33%;
-    height: 200px;
-    background-color: aqua;
+    width: 30%;
+    height: 400px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.471);
+
+}
+.section-3 .items .item:nth-child(odd){
+    /* width: ; */
+    background-color: #EEF9FF;
+    box-shadow: none;
+
+}
+.section-3 .items .item .item-title span{
+    color: #06A3DA;
+    font-weight: bold;
+    font-size: 20px;
+}
+.section-3 .items .item .item-title p{
+    color: #959fa2;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.section-3 .items .item .item-price{
+    text-align: center;
+}
+.section-3 .items .item .item-price span:nth-child(1){
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.section-3 .items .item .item-text{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.section-3 .items .item .item-text div{
+    display: flex;
+    justify-content: space-between;
+}
+.section-3 .items .item .item-text div span{
+    color: #9faaad;
+}
+.section-3 .items .item .item-text div i{
+    color: #06A3DA;
+}
+.section-3 .items .item button{
+    color: white;
+    background-color: #06A3DA;
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
 }
