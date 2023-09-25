@@ -1,0 +1,106 @@
+/* Début page team */
+
+.titremembres{
+    text-align: center;
+}
+
+.titremembres p{
+    /* color:  #1b54ab; */
+    color: #06A3DA;
+    font-weight: 700;
+}
+
+.titremembres hr ,hr{
+    /* color:  #1b54ab; */
+    color: #06A3DA;
+    width: 3%;
+    border: 0.1em solid;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.nosmembres{
+    display: flex;
+    justify-content: space-around;
+    }
+#perssonage{
+    background-color: #EEF9FF;
+}
+#perssonage h5{
+   text-align: center;
+   color: #06A3DA;
+   font-size: 20px;
+}
+#perssonage p{
+    text-align: center;
+    font-size: 10px;
+    margin-top: -30px;
+}
+.logo{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding-top: 10%;
+   
+}
+.logo img{
+    margin-left: auto;
+    margin-right: auto;
+}
+i{
+    color: white;
+    background-color: #06A3DA;
+   margin-left: 95%;
+   width: 20px;
+   height: 20px;
+   text-align: center;
+ 
+   /* padding-top: 30px; */
+}
+
+
+/* Fin page team */
+
+
+
+/* Début Temoignage */
+
+.titretémoignage{
+    text-align: center;
+}
+
+.titretémoignage p{
+    /* color:  #1b54ab; */
+    color: #06A3DA;
+    font-weight: 700;
+}
+
+.titretémoignage hr ,hr{
+    /* color:  #1b54ab; */
+    color: #06A3DA;
+    width: 3%;
+    border: 0.1em solid;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.Témoignage{
+    background-color:  #EEF9FF;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    text-align: center;
+}
+
+.nospersonnage{
+
+}
+
+.nospersonnage1{
+   background-color: white;
+}
+
+
+
+
+
