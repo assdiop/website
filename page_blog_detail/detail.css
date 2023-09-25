@@ -1,0 +1,106 @@
+.detail{
+    display: grid;
+    grid-template-columns:  8fr 4fr;
+    /* justify-content: center; */
+    margin-left: 20px;
+}
+/* debut css partie gauche */
+.detail_left_grid img{
+    width: 80%;
+    height: 300px;
+}
+.detail_left_grid p{
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.605);
+}
+.detail_left_comment_item img{
+    width: 7%;
+    height: 30px;
+}
+/* fin css partie gauche */
+.detail_right input{
+    width: 45%;
+    height: 1%;
+}
+.detail_right_search i{
+    background-color: #06A3DA;
+    padding: 9px 15px;
+    font-size: 10px;
+}
+hr{
+    background-color: #06A3DA; 
+    height: 4px;
+    border: none;
+    width:  80px;
+    margin-left: 0;
+}
+.categorie_elemnt1{
+    background-color: #EEF9FF;
+    margin-bottom: 5px;
+    padding: 9px;
+}
+.categorie_elemnt1 i{
+    padding: 0 20px;
+}
+.detail_right_post_item{
+    display: flex;
+    background-color: #EEF9FF;
+    margin-bottom: 15px;
+}
+.detail_right_post_item p{
+    padding-left: 10px;
+
+}
+.detail_right_post_item img{
+    width: 25%;
+    height: 25%;
+    /* display: flex; */
+}
+.detail_right_img img{
+    width: 100%;
+    height: 200px;
+}
+.detail_right_tag_item{
+    display: flex;
+    /* background-color: #EEF9FF; */
+    /* margin: 0 10px 10px 15px; */
+}
+.detail_right_tag_item p{
+    background-color: #EEF9FF;
+    margin: 5px;
+    padding: 5px;
+}
+.detail_right_texte p{
+    padding: 10px;
+    height: 150px;
+    text-align: center;
+    background-color: #EEF9FF;
+    justify-content: justify;
+    margin: 0 auto;
+}
+.detail_right_texte button{
+    width: 40%;
+    padding: 6px;
+    color: white;
+    font-weight: bold;
+    background-color: #06A3DA;
+    border: none;
+    position: relative;
+    top: -65px;
+    left: 130px;
+}
+/* @media screen and (width <= 900px){
+    .detail_left_grid{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .detail_left, .detail_left_text, .detail_left_2{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .p1{
+        display: none;
+    }
+} */
