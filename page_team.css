@@ -44,13 +44,18 @@
     display: flex;
    gap: 5px;
     align-items: center;
-    padding-top: 10%;
+    padding-top: 5%;
    
 }
 .logo img{
-    margin-left: auto;
-    margin-right: auto;
-}
+    margin-left: 8%;
+    /* margin-right: auto; */
+    width: 40px;
+    text-align: center;
+    padding-bottom: 10%;
+    }
+
+
 i{
     color: white;
     background-color: #06A3DA;
@@ -71,13 +76,21 @@ i{
 
 .titretémoignage{
     text-align: center;
+   
 }
 
 .titretémoignage p{
     /* color:  #1b54ab; */
     color: #06A3DA;
     font-weight: 700;
+    padding-bottom: 20px;
 }
+
+.titretémoignage h3{
+    padding-bottom: 20px
+
+}
+
 
 .titretémoignage hr ,hr{
     /* color:  #1b54ab; */
@@ -160,6 +173,9 @@ font-size: 15px;
 .nospersonnage1{
     background-color: white;
 } */
+@media screen and {
+    
+}
 
 
 
