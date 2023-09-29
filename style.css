@@ -75,6 +75,10 @@ header nav .nav-link .logo {
     font-weight: bolder;
 }
 
+header nav .logo-menu {
+    display: none;
+}
+
 header nav .nav-link .links {
     /* background-color: rgb(229, 160, 160); */
     width: 40%;
@@ -521,12 +525,17 @@ footer div.footer-item:nth-child(4) i {
 }
 
 
+.responsive-menu {
+    display: none;
+}
+
 
 /* responsive css  */
 @media screen and (max-width:767px) {
     header {
-        height: auto;
+        height: 320px;
         background-repeat: no-repeat;
+        background-size: cover;
     }
 
     header nav div.nav-infos {
@@ -576,7 +585,7 @@ footer div.footer-item:nth-child(4) i {
     }
 
     header div.bg-opacity-color {
-        height: auto;
+        height: 320px;
 
 
     }
@@ -642,5 +651,55 @@ footer div.footer-item:nth-child(4) i {
 
     .footer-bas div:nth-child(1) {
         display: none;
+    }
+
+    /* menu shwarma */
+    header nav .nav-link .logo-menu {
+        /* background-color: gray; */
+        /* margin-left: 30px; */
+        width: 20%;
+        color: white;
+        font-size: 40px;
+        font-weight: bolder;
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    .responsive-menu {
+        display: block;
+        position: relative;
+        top: -220px;
+        height: 250px;
+        margin-left: -400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0px 50px;
+        transition: 1s ease-in;
+    }
+    
+    .responsive-menu-okay {
+        top: -220px;
+        backdrop-filter: blur(50px);
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0px 50px;
+    }
+
+    .responsive-menu a,
+    .responsive-menu i {
+        text-decoration: none;
+        color: white;
+    }
+
+    .responsive-menu button {
+        background-color: #06A3DA;
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        height: 30px;
+        width: 200px;
     }
 }
