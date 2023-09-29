@@ -16,39 +16,58 @@
     />
     <link rel="stylesheet" href="a_propos.css" />
     <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../stylesec.css">
     <title>A propos</title>
   </head>
   <body>
     <header>
       <div class="bg-opacity-color">
-        <nav>
-          <div class="nav-infos">
-            <div>
-              <span
-                ><i class="bi bi-geo-alt-fill"></i> 123 street, New York, USA
-              </span>
-              <span><i class="bi bi-telephone-fill"></i> +012 345 6789</span>
-              <span
-                ><i class="bi bi-envelope-open-fill"></i>
-                infos@example.com</span
-              >
-            </div>
 
-            <div>
-              <i class="bi bi-twitter"></i>
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-linkedin"></i>
-              <i class="bi bi-instagram"></i>
-              <i class="bi bi-youtube"></i>
-            </div>
+          <nav>
+              <div class="nav-infos">
+
+                  <div>
+                      <span><i class="bi bi-geo-alt-fill"></i> 123 street, New York, USA </span>
+                      <span><i class="bi bi-telephone-fill"></i> +012 345 6789</span>
+                      <span><i class="bi bi-envelope-open-fill"></i> infos@example.com</span>
+                  </div>
+
+                  <div>
+                      <i class="bi bi-twitter"></i>
+                      <i class="bi bi-facebook"></i>
+                      <i class="bi bi-linkedin"></i>
+                      <i class="bi bi-instagram"></i>
+                      <i class="bi bi-youtube"></i>
+                  </div>
+              </div>
+
+              <div class="nav-link">
+                  <div class="logo">
+                      <span><i class="bi bi-person-badge-fill"></i> Startup</span>
+                  </div>
+                  <div class="logo-menu">
+                      <span id="logo-menu"><i class="bi bi-list"></i></span>
+                  </div>
+
+                  <div class="links">
+                      <a href="">Home</a>
+                      <a href="">About</a>
+                      <a href="">Services</a>
+                      <a href="">Blog</a>
+                      <a href="">Pages</a>
+                      <a href="">Contact</a>
+                      <i class="bi bi-search"></i>
+                      <button>Download pro version</button>
+                  </div>
+              </div>
+          </nav>
+
+          <div class="header-text">
+              <h1>Blog grid</h1>
+              <p>Home 0 Grid</p>
           </div>
-
-          <div class="nav-link">
-            <div class="logo">
-              <span><i class="bi bi-person-badge-fill"></i> Startup</span>
-            </div>
-
-            <div class="links">
+          <!-- menu responsive -->
+          <div class="responsive-menu" id="responsive-menu">
               <a href="">Home</a>
               <a href="">About</a>
               <a href="">Services</a>
@@ -57,28 +76,9 @@
               <a href="">Contact</a>
               <i class="bi bi-search"></i>
               <button>Download pro version</button>
-            </div>
           </div>
-        </nav>
-
-        <div class="header-text">
-          <!-- <p>Creative & Innovative</p> -->
-          <h3>About us</h3>
-          <p>
-            Home
-            <i
-              class="fa-regular fa-circle"
-              style="color: #ffffff; font-size: 13px"
-            ></i>
-            About
-          </p>
-          <div>
-            <!-- <button>Free Quote </button>
-                    <button>Contact Us</button> -->
-          </div>
-        </div>
       </div>
-    </header>
+  </header>
 
     <div class="apropos">
       <div class="btn">
@@ -345,4 +345,6 @@
       </div>
     </footer>
   </body>
+<script src="../interact.js"></script>
+
 </html>
