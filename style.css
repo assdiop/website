@@ -675,17 +675,12 @@ footer div.footer-item:nth-child(4) i {
         flex-direction: column;
         justify-content: space-evenly;
         padding: 0px 50px;
-        transition: 1s ease-in;
+        transition: 0.8s ease-in;
     }
     
     .responsive-menu-okay {
-        top: -220px;
         backdrop-filter: blur(50px);
         margin-left: 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        padding: 0px 50px;
     }
 
     .responsive-menu a,
