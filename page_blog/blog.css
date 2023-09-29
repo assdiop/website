@@ -2,8 +2,10 @@
     display: grid;
     grid-template-columns:  8fr 4fr;
     /* justify-content: center; */
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
+/* debut css parti gauche de la section blog */
 .blog_left, .blog_left_text, .blog_left_2{
     display: flex;
     margin-bottom: 20px;
@@ -19,6 +21,7 @@
 }
 .blog_left_para h4{
     color: #06A3DA;
+    font-size: 15px;
 }
 .p1{
     background-color: #06A3DA;
@@ -33,36 +36,46 @@
 }
 
 .blog_left_text, .blog_left_para{
+    margin-top: -40px;
+    padding-left: 10px;
+}
+.blog_left_para{
     margin-top: -60px;
     padding-left: 10px;
 }
 .blog_left_para h3{
     margin-top: 50px;
+    font-size: 20px;
 }
 .blog_left_pagination{
     display: flex;
     color: #06A3DA;
+    margin-bottom: 15px;
+    margin-left: 30px;
 }
 .blog_left_pagination div{
     border: 1px solid rgba(0, 0, 0, 0.12);
-    padding: 10px;
+    padding: 17px;
     width: 2%;
-    height: 1%;
+    /* height: 1%; */
 }
 .pagination_one{
     background-color: #06A3DA;
     color: white;
 }
+/* fin de la partie gauche  */
+
+/* debut de la partie droite */
 .blog_right input{
     width: 45%;
-    height: 1%;
+    height: 50%;
 }
 .blog_right_search i{
     background-color: #06A3DA;
     padding: 9px 15px;
     font-size: 10px;
 }
-hr{
+.blog_right hr{
     background-color: #06A3DA; 
     height: 4px;
     border: none;
@@ -89,7 +102,6 @@ hr{
 .blog_right_post_item img{
     width: 25%;
     height: 25%;
-    /* display: flex; */
 }
 .blog_right_img img{
     width: 100%;
@@ -107,7 +119,7 @@ hr{
 }
 .blog_right_texte p{
     padding: 10px;
-    height: 150px;
+    height: 210px;
     text-align: center;
     background-color: #EEF9FF;
     justify-content: justify;
@@ -124,18 +136,58 @@ hr{
     top: -65px;
     left: 130px;
 }
+.blog h2, .blog h1{
+    margin: 30px 0 0 0;
+    margin-left: 0;
+}
 @media screen and (width <= 900px){
+    .blog{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
     .blog_left_grid{
         display: flex;
         flex-direction: column;
         margin-bottom: 20px;
+        justify-content: center;
+        width: 90%;
     }
-    .blog_left, .blog_left_text, .blog_left_2{
+    .blog_left, .blog_left_2{
         display: flex;
         flex-direction: column;
         margin-bottom: 20px;
     }
+    .blog_left_text{
+        margin-top: 0;
+    }
+    .blog_left_para{
+        margin-top: 30;
+    }
     .p1{
         display: none;
+    }
+    .blog_left hr, .blog_right hr{
+        position: relative;
+        left: 285px;
+        width: 17%;
+    }
+    .blog_right_search{
+        margin-top: 80px;
+    }
+    .blog_right_tag_item{
+        justify-content: center;
+    }
+    .blog_right_post_item img{
+        width: 10%;
+        height: 10%;
+    }
+    .blog_right_post_item{
+        width: 100%;
+    }
+    .blog_right_texte button{
+        left: 10px;
     }
 }

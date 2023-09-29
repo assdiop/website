@@ -6,14 +6,15 @@
 
 /* header */
 header {
-    height: 100vh;
+    height: 400px;
     /* background-color: aqua; */
     background-image: url(https://themewagon.github.io/startup2/img/carousel-1.jpg);
     background-size: contain;
+    margin-bottom: 50px;
     
 }
 header div.bg-opacity-color{
-    height: 100vh;
+    height: 400px;
     background-color: #091e3eb0;
     
 }
@@ -111,7 +112,7 @@ header nav .nav-link .links button {
 
 /* le texte du header  */
 header .header-text {
-    margin-top: 180px;
+    margin-top: 50px;
     /* background-color: red; */
     text-align: center;
     color: white;
@@ -213,7 +214,7 @@ header .header-text div button:nth-child(2){
 
 footer{
     height: auto;
-    margin-top: 300px;
+    /* margin-top: 300px; */
     background-color: #091E3E;
     color: white;
 }
@@ -324,6 +325,8 @@ footer div.footer-item:nth-child(3) i, footer div.footer-item:nth-child(4) i{
     padding-top: 20px;
     /* margin-left: 60px; */
 }
-
-
-
+@media screen and (width <= 900px){
+    header nav .nav-link .links button {
+        display: none;
+    }
+}
