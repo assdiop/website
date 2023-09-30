@@ -109,8 +109,6 @@
 }
 .blog_right_tag_item{
     display: flex;
-    /* background-color: #EEF9FF; */
-    /* margin: 0 10px 10px 15px; */
 }
 .blog_right_tag_item p{
     background-color: #EEF9FF;

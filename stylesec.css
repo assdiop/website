@@ -123,6 +123,10 @@ header .header-text {
     color: white;
 }
 
+header .header-text i{
+    font-size: 15px;
+}
+
 header .header-text p {
     font-size: 20px;
     font-weight: lighter;

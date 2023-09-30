@@ -126,8 +126,6 @@
 }
 .detail_right_tag_item{
     display: flex;
-    /* background-color: #EEF9FF; */
-    /* margin: 0 10px 10px 15px; */
 }
 .detail_right_tag_item p{
     background-color: #EEF9FF;
@@ -252,5 +250,8 @@
     }
     .comment_item button{
         width: 14%;
+    }
+    .detail_right_tag_item{
+        justify-content: center;
     }
 }
