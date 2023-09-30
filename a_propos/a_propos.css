@@ -1,0 +1,314 @@
+:root{
+    --bleuciel : #05A2D9;
+    --bleunuit : #091E3E;
+    --bleuclair : #EEF9FF;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+.clear{
+    margin-top: 20px;
+}
+.clearsmall{
+    margin-top: 10px;
+}
+.clearmedium{
+    margin-top: 80px;
+}
+.title h4{
+font-size: 11px;
+font-weight: bold;
+}
+.title h3{
+color: var(--bleunuit);
+font-size: 15px;
+font-weight: bold;
+}
+.btn{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bleuciel);
+    position: fixed;
+    right: 100px;
+    bottom: 200px;
+}
+
+
+
+/* main apropos */
+.mainprops{
+    padding: 10px 10px;
+}
+    /* main apropos top */
+
+.mainprops .apropostop{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 0 129px;
+   
+}
+       /* aprops top left debut */
+.mainprops .apropostop .topleft
+{
+/* border: 4px solid slateblue; */
+height: 300px;
+padding-left: 20px;
+padding-top: 10px;
+}
+.mainprops .apropostop .topleft .toplefttext {
+/* border: 4px solid slateblue; */
+}
+.mainprops .apropostop .topleft .toplefttext h4{
+color: var(--bleuciel);
+font-size: 14px;
+}
+.mainprops .apropostop .topleft .toplefttext h2{
+color: var(--bleunuit);
+font-size: 15px;
+}
+.topleft .toplefttext p{
+    font-size: 12px;
+    font-weight:normal;
+    color: grey;
+}
+.topleft .topleftlist{
+    display: flex;
+    /* border: 2px solid red; */
+} 
+.topleft .topleftlist .list2{
+    margin-left: 130px;
+} 
+.topleft .topleftlist .list1, .topleft .topleftlist .list2{
+    font-size: 13px;
+    color: var(--bleunuit);
+    font-weight: bolder;
+}
+.topleft .topleftcontact{
+    display: flex;
+    /* border: 2px solid red; */
+} 
+#font{
+    font-size: 14px;
+}
+ 
+.topleftcontact .iconecontact{
+    background-color: var(--bleuciel);
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.topleftcontact .contactnum{
+    color: var(--bleunuit);
+    font-weight: bolder;
+    margin-left: 30px;
+    font-size: 14px;
+}
+.lefttop{
+
+    width: 23%;
+    color: #05A2D9;
+}
+.topleftcontact .contactnum span{
+color: var(--bleuciel);
+font-size: 12px;
+}
+.topleft .topleftrequest{
+
+    /* border: 2px solid red; */
+} 
+.topleft .topleftrequest .request{
+background-color: var(--bleuciel);
+height: 30px;
+width: 25%;
+border: none;
+color: #ffff;
+    
+} 
+ 
+        /* a propos top right */
+.mainprops .apropostop .topright{
+/* border:  4px solid salmon; */
+height: 300px;
+}
+.apropostop .topright img{
+    height: 300px;
+    width: 100%;
+}
+
+/* Apropos bottom  debut*/
+
+.aproposbottom{
+    
+}
+.aproposbottom .aproposbottomcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 129px;
+    column-gap: 20px;
+
+}
+.aproposbottom .aproposbottomcontainer .item1{
+width: 100%;
+
+}
+.aproposbottomcontainer .item1 .bottomimage{
+    width: 100%;
+}
+.aproposbottomcontainer .item1 .bottomimage img{
+width: 100%;
+height: 200px;
+}
+.item1 .bottomtext{
+    background-color: var(--bleuclair);
+    text-align: center;
+}
+.item1 .bottomtext h4{
+    color: var(--bleuciel);
+    font-size: 13px;
+}
+.item1 .bottomtext P{
+   
+    font-size: 13px;
+}
+.titrebottom, .titrebottom2{
+    color: var(--bleuciel);
+    width: 5%;
+    display: flex;
+}
+
+/*  FIN  apropos bottom */
+
+/* a props sponsor */
+
+.sponsor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 0 150px;
+}
+.sponsor .sponsor1{
+    display: flex;
+}
+.sponsor .sponsor1 img{
+height: 20px;
+width: 40%;
+}
+
+
+@media screen and (max-width:1100px){
+    .mainprops .apropostop, .aproposbottom .aproposbottomcontainer{
+        padding: 0 100px;
+    }
+    .btn{
+        height: 30px;
+        width: 30px;
+       
+        position: fixed;
+        right: 60px;
+        bottom: 200px;
+    }
+   
+}  
+@media screen and (max-width:1024px) {
+    .mainprops .apropostop, .aproposbottom .aproposbottomcontainer{
+        padding: 0 100px;
+    }
+   
+}
+@media screen and (max-width:930px){
+
+    .mainprops .apropostop, .aproposbottom .aproposbottomcontainer{
+
+    }
+    .clear{
+        margin-top: 11px;
+    }
+}
+@media screen and (max-width:768px) {
+    .mainprops .apropostop, .aproposbottom .aproposbottomcontainer{
+        padding: 0 40px;
+    }
+    .clear{
+        margin-top: 10px;
+    }
+    .topleft .topleftrequest{
+    }
+    .btn{
+        height: 30px;
+        width: 30px;
+       
+        position: fixed;
+        right: 15px;
+        bottom: 200px;
+    }
+    
+}
+@media screen and (max-width:640px){
+    .mainprops .apropostop, .aproposbottom .aproposbottomcontainer{
+        padding: 0;
+    }
+    .topleft .topleftlist .list2{
+        margin-left: 80px;
+    }
+
+}
+@media screen and (max-width:550px){
+    .mainprops .apropostop, .aproposbottom .aproposbottomcontainer{
+        padding: 0;
+    }
+    .topleft .topleftlist .list2{
+        margin-left: 80px;
+    }
+    .topleft .topleftlist .list1, .topleft .topleftlist .list2{
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width:448px) {
+    .mainprops .apropostop{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .aproposbottomcontainer .item1 .bottomimage img{
+        width: 100%;
+        height: 150px;
+        }
+        .btn{
+            height: 25px;
+            width: 25px;
+           
+            position: fixed;
+            right: 20px;
+            bottom: 200px;
+        }
+        .sponsor{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr ;
+            padding: 0 100px;
+        }
+        .item1 .bottomtext h4{
+            font-size: 13px;
+        }
+        .item1 .bottomtext P{
+            font-size: 10px;
+        }
+        
+}
+@media screen and (max-width:448px){
+    
+}
+
+

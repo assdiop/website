@@ -6,7 +6,7 @@
 
 /* header */
 header {
-    height: 400px;
+    height: 300px;
     /* background-color: aqua; */
     background-image: url(https://themewagon.github.io/startup2/img/carousel-1.jpg);
     background-size: contain;
@@ -15,7 +15,7 @@ header {
 }
 
 header div.bg-opacity-color {
-    height: 400px;
+    height: 300px;
     background-color: #091e3eb0;
 
 }
@@ -121,10 +121,6 @@ header .header-text {
     /* background-color: red; */
     text-align: center;
     color: white;
-}
-
-header .header-text i{
-    font-size: 15px;
 }
 
 header .header-text p {
@@ -460,7 +456,7 @@ footer div.footer-item:nth-child(4) i {
     .responsive-menu {
         display: block;
         position: relative;
-        top: -183px;
+        top: -157px;
         height: 250px;
         margin-left: -400px;
         display: flex;
