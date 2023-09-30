@@ -56,7 +56,7 @@
     }
 
 
-i{
+.icon i{
     color: white;
     background-color: #06A3DA;
    margin-left: 95%;
@@ -193,7 +193,11 @@ font-size: 15px;
             display: flex;
             flex-direction: column;
             width: 100%;
-        }
+            /* margin: auto; */
+            /* background-color: crimson;
+            margin-left: auto;
+             margin-right: auto;
+        } */
         .digital1{
           width: 80%;
             height: auto;
@@ -203,6 +207,8 @@ font-size: 15px;
              height: auto;
              /* background-color: aqua; */
              padding: 10px 20px;
+             
+           
          }
          
          .digitop .digitopimage img{
