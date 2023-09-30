@@ -29,6 +29,10 @@ header nav .nav-infos {
     padding-left: 30px;
     padding-right: 30px;
 }
+.nav-infos .icon-link {
+   height: 100%;
+   
+}
 
 header nav .nav-infos div:nth-child(1) {
     padding-top: 0.4%;
@@ -250,8 +254,10 @@ footer .footer-haut {
 footer .footer-haut div.footer-item {
     /* height: 85%; */
     /* background-color: rgb(154, 127, 127); */
-    width: 20%;
+    /* width: 20%; */
+    width: 18.5%;
     padding-top: 20px;
+    margin-right: 15.5px;
 }
 
 footer .footer-haut div.footer-item h4 {
@@ -359,9 +365,6 @@ footer div.footer-item:nth-child(4) i {
     padding-top: 20px;
     /* margin-left: 60px; */
 }
-
-
-
 
 
 .responsive-menu {

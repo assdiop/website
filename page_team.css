@@ -31,19 +31,32 @@ hr {
 }
 
 #perssonage {
-    background-color: #ffeeee;
+    /* background-color: #ffeeee; */
+    background-color: #EEF9FF;
+   
+  
 }
 
 #perssonage h5 {
     text-align: center;
     color: #06A3DA;
     font-size: 20px;
+    height: 50px;
+    margin-top: 10px;
 }
 
 #perssonage p {
     text-align: center;
     font-size: 10px;
     margin-top: -30px;
+    height: 30px;
+}
+/* .nav-infos .icon{
+   
+} */
+
+.nav-link .logo{
+  margin-top: -5%;
 }
 
 .logo {
@@ -63,7 +76,7 @@ hr {
 }
 
 
-i.le-i-de-astou {
+/* i.le-i-de-astou {
     color: white;
     background-color: #06A3DA;
     margin-left: 95%;
@@ -71,8 +84,8 @@ i.le-i-de-astou {
     height: 20px;
     text-align: center;
 
-    /* padding-top: 30px; */
-}
+    padding-top: 30px;
+} */
 
 
 /* Fin page team */
@@ -172,24 +185,18 @@ hr {
 }
 
 
-/* .Témoignage{
-   
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    text-align: center;
+.footer-item .logo{
+    width: auto;
 }
 
-.nospersonnage{
-    background-color:  #EEF9FF;
+/* .footer-item .logo p{
+    width: auto;
 }
-.nospersonnage h5{
-    color: #06A3DA;
-}
-
-.nospersonnage1{
-    background-color: white;
+.footer-item .logo p .footers-newsletter{
+    width: auto;
 } */
+ 
+
 @media screen and (max-width: 767px) {
     .nosmembres {
         flex-direction: column;
