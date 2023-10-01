@@ -374,7 +374,7 @@ footer div.footer-item:nth-child(4) i {
 
 }
 
-.section-title span {
+.section-title span,.section-title a {
     color: #06A3DA;
 
 }
